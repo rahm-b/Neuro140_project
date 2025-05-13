@@ -90,7 +90,7 @@ def prompt_for_caption(page_image, current_image, rects, current_index, master):
 
 
 def review_text_content(master, page_image, content_positions):
-    """Displays the page alongside content for verification before adding to the file."""
+    """Displays the page alongside content for verification before adding to the file"""
     review_window = tk.Toplevel(master)
     review_window.title("Review and Verify")
 
@@ -189,7 +189,7 @@ def extract_text_with_captions(pdf_path, output_text_path):
                     f.write(content + "\n")
                     f.flush()
 
-    print("Text extraction and image captioning complete.")
+    print("PDF complete!")
     master.destroy()
 
 
